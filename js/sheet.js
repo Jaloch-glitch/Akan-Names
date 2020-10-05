@@ -7,4 +7,4 @@ function submit() {
     const name = (document.getElementById("name").value)
     const year =parseInt(document.getElementById("year").value)
     const day = parseInt(document.getElementById("day").value)
-    
+    const dateOfBirth = new Date(year + "." + month + "." + day)
