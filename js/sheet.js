@@ -8,3 +8,5 @@ function submit() {
     const year =parseInt(document.getElementById("year").value)
     const day = parseInt(document.getElementById("day").value)
     const dateOfBirth = new Date(year + "." + month + "." + day)
+    const answer  = dateOfBirth.getDay()
+    
