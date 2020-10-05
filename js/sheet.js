@@ -31,4 +31,12 @@ function submit() {
         output.innerHTML = "Hello" + " "+ name + " " + " please enter a valid day! "
     }
 
+    if (female.checked && year > 1969 && year < 2020 && month > 0 && month < 12 && day >0 && day <31){
+        output.style.background = "blue"
+        output.innerHTML = "Hello" + " " + name + ",   " + "you were born on a" + " " + daysOfTheWeek[answer] +"." + " "+ "Suprise!!, your Akan name is:" + femaleNames[answer]
+        
+    } else if(male.checked && year > 0 && year < 2020 && month > 0 && month < 12 && day >0 && day <31){
+        output.style.background = "blue"
+        output.innerHTML = "Hello" + " " + name + ",   " + "you were born on a" + " " + daysOfTheWeek[answer] +"." + " "+ "Suprise!!, your Akan name is:" + maleNames[answer]
+    }
 
