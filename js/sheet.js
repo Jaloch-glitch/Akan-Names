@@ -25,3 +25,10 @@ function submit() {
         output.innerHTML = "Hello" + " "+ name + " " + " please enter a valid month! "
     }
 
+    else if (day < 0 || day > 31) {
+        output.style.background ="blue"
+        output.style.color= "red"
+        output.innerHTML = "Hello" + " "+ name + " " + " please enter a valid day! "
+    }
+
+
