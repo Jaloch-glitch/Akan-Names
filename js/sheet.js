@@ -19,3 +19,9 @@ function submit() {
         output.innerHTML = "Hello " + " "+ name  + " " + " please enter a valid year! "
     }
 
+    else if ((month < 1) || (month > 12)) {
+        output.style.background ="blue"
+        output.style.color= "red"
+        output.innerHTML = "Hello" + " "+ name + " " + " please enter a valid month! "
+    }
+
