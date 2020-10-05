@@ -9,4 +9,7 @@ function submit() {
     const day = parseInt(document.getElementById("day").value)
     const dateOfBirth = new Date(year + "." + month + "." + day)
     const answer  = dateOfBirth.getDay()
+    const output = document.getElementById("output")
+    const male = document.getElementById("male")
+    const female = document.getElementById("female")
     
