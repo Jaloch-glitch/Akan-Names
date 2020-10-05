@@ -1,3 +1,16 @@
 body {
     background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center center/cover;
 }
+.intro {
+    color:rgb(8, 1, 1);
+    font-family: 'EB Garamond', serif;
+    font-size:1.5em;
+    line-height: 1.1;
+}
+h1 {
+    font-family: sans-serif(blue serif);
+    font-size:4.8em;
+    text-align:center;
+    color: ivory;
+
+}
