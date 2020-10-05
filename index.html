@@ -29,6 +29,29 @@
                 <p>Fill in the form below &#128396;</p>
             </div>
             <p id="output"></p>
+
+            <form id="details">
+                <div class="form-group">
+                          <label>Enter Your First Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Name" required>
+                          <label>Year of Birth</label>
+                          <input type="number" class="form-control" id="year" placeholder="Year of Birth" required min="1970" max="2020">
+                          <label>Month of Birth</label>
+                          <input type="number" class="form-control" id="month" placeholder="Enter Month" required min="1" max="12">
+
+                          <label>Day of Birth</label>
+                          <input type="number" class="form-control" id="day" placeholder="Day" required min="1" max="31">
+                        </div>
+                        <div class="fwm">
+                            <label>Gender</label>
+                            <input type="radio" name="gender" id="male" value="male"> Male
+                            <input type="radio" name="gender" id="female" value="female"> Female
+                        </div>
+
+                       
+                        <button  id="btn" type="submit" class="btn btn-secondary">Submit</button>
+                        <button type="reset" class="btn btn-secondary btn-lg">Reset</button>
+            </form>
         </div>
         
         <script src="" async defer></script>
